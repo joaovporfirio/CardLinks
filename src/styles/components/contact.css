@@ -1,0 +1,21 @@
+.info-container {
+    margin-bottom: 1rem;
+}
+
+.info-individual {
+    display: flex;
+    color: #fff;
+    margin-bottom: 0.6em;
+    align-items: center;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    
+
+}
+
+.info-individual svg {
+    font-size: 30px;
+    margin-right: 10px;
+    
+}
