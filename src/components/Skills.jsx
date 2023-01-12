@@ -5,8 +5,7 @@ import {
     DiReact
 } from 'react-icons/di'
 
-import '../styles/components/skills.css'
-
+import {Skill} from '../styles/components/skills'
 const technologies = [
     { id: 'html', name: 'HTML5', icon: <DiHtml5 /> },
     { id: 'css', name: 'CSS3', icon: <DiCss3 /> },
@@ -16,7 +15,7 @@ const technologies = [
 
 const Skills = () => {
     return (
-        <section >
+        <Skill >
             <h2>Skills</h2>
             <div className='skills-container'>
                 {technologies.map((skill) => (
@@ -27,7 +26,7 @@ const Skills = () => {
                     </div>
                 ))}
             </div>
-        </section>
+        </Skill>
     )
 }
 

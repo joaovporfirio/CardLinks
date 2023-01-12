@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import { GiCoffeeCup } from 'react-icons/gi'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import { GlobalStyle } from './styles/darkMode/global.js'
 import { ThemeProvider } from 'styled-components'
 import dark from './styles/darkMode/dark'
 import light from './styles/darkMode/light'
+import BackgroundIcon from './components/BackgroundIcon'
+
 
 function App() {
 
@@ -14,18 +15,17 @@ function App() {
   const toToggleTheme = () => {
     setTheme(theme.title == 'dark' ? light : dark)
 
-    if(theme.title == 'dark') {
-      {$props => props.theme.icon}
-    }
+
   }
+
 
   return (
     <div className="App">
-      <ThemeProvider theme = {theme}>
+      <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Header toToggleTheme={toToggleTheme} />
+        <BackgroundIcon />
         <MainContent />
-        <GiCoffeeCup id='icon-base' />
       </ThemeProvider>
     </div>
   )

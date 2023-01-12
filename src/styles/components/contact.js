@@ -1,10 +1,14 @@
+import styled from "styled-components";
+
+export const Contacts = styled.div`
+
 .info-container {
     margin-bottom: 1rem;
 }
 
 .info-individual {
     display: flex;
-    color: #fff;
+    color: ${props => props.theme.colors.third};
     margin-bottom: 0.6em;
     align-items: center;
     font-weight: 400;
@@ -19,3 +23,4 @@
     margin-right: 10px;
     
 }
+`

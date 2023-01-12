@@ -6,16 +6,16 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     background-color: ${props => props.theme.colors.secondary}  ;
-    width: 600px;
-    height: 750px;
+    width: 500px;
+    height: 600px;
     border-radius: 8px;
-    z-index: 3;
     backdrop-filter: blur(10px);
     padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 30px;
+    
     
 }
+
 
 
 .header {
@@ -23,8 +23,19 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     margin-bottom: 2em;
-    color: #fff;
+    color: ${props => props.theme.colors.third};
     
+}
+.header h1{
+    font-size: 20px;
+}
+
+.header h3{
+    font-size: 15px;
+}
+
+.header h1, .header h3 {
+    text-align: center;
 }
 
 
@@ -32,16 +43,16 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
-    background-color: #134647;
+    background-color: ${props => props.theme.colors.primary};
     margin-bottom: 1rem;
     
 }
 
 .avatar #avatar-img {
-    width: 180px;
+    width: 100px;
     height: auto;
     border-radius: 100%;
     

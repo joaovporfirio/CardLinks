@@ -1,9 +1,10 @@
 export default {
-    title:'light',
+    title: 'light',
     colors: {
-        primary:'#e3e3e3',
-        secondary:'#4f234f',
-        third:'#000'
+        primary: '#f6f6f6',
+        secondary: '#e8e8e87e',
+        third: '#000',
+        fourth: '#333333',
     },
-    icon:'MdOutlineDarkMode'
+    icon: 'MdOutlineDarkMode'
 }

@@ -1,4 +1,5 @@
-import '../styles/components/contact.css'
+
+import {Contacts} from '../styles/components/contact'
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment,AiOutlineUnlock } from 'react-icons/ai'
 
 const Contact = () => {
@@ -11,14 +12,14 @@ const Contact = () => {
     ]
 
     return (
-        <section className='info-container'>
+        <Contacts className='info-container'>
             {informations.map((info) => (
                 <a href='#' className='info-individual' id={info.id} key={info.id}>
                     {info.icon}
                     <p>{info.name}</p>
                 </a>
             ))}
-        </section>
+        </Contacts>
 
             )
 }

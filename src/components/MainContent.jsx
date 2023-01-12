@@ -4,9 +4,11 @@ import ButtonContact from './ButtonContact'
 import Contact from './Contact'
 import Skills from './Skills'
 
+
 const MainContent = () => {
     return (
         <Container>
+
             <main className="container">
                 <div className="header">
                     <div className='avatar'>
@@ -18,6 +20,7 @@ const MainContent = () => {
                 <Contact />
                 <Skills />
                 <ButtonContact />
+
             </main>
         </Container>
     )

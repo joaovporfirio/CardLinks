@@ -1,14 +1,17 @@
+import styled from "styled-components";
+
+export const Skill = styled.div`
 .skills-container {
     display: flex;
     gap: 1rem;
     justify-content: center;
     margin-top: 1rem;
-    color: #fff;
+    color: ${props => props.theme.colors.third};
 
 }
 
 h2 {
-    color: #fff;
+    color: ${props => props.theme.colors.third};
 }
 
 .techonology-icon {
@@ -48,3 +51,4 @@ h2 {
     }
 
 }
+`
