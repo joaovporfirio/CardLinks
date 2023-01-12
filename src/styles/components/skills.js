@@ -11,6 +11,7 @@ export const Skill = styled.div`
 }
 
 h2 {
+    margin-top:1rem;
     color: ${props => props.theme.colors.third};
 }
 
