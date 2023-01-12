@@ -1,15 +1,19 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #003c4654;
+    background-color: ${props => props.theme.colors.secondary}  ;
     width: 600px;
-    height: 780px;
+    height: 750px;
     border-radius: 8px;
-    z-index: 2;
+    z-index: 3;
     backdrop-filter: blur(10px);
     padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
     
 }
 
@@ -87,3 +91,4 @@
     }
         
 }
+`
