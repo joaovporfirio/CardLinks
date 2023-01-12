@@ -13,7 +13,7 @@ export const Contacts = styled.div`
     align-items: center;
     font-weight: 400;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     
 
 }
