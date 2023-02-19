@@ -12,7 +12,9 @@
 <br>
 
 <p align="center"> 
-  <img alt="screenShot" src="images/screenshot.png" width="100%">
+  <img alt="screenShot" src="src/images/desktop-light.PNG" width="100%">
+  <img alt="screenShot" src="src/images/desktop-dark.PNG" width="100%">
+
   
 </p>
 
