@@ -69,15 +69,6 @@ function App() {
   </div>
 );
 }
-    <div className="App">
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <Header toToggleTheme={toToggleTheme} />
-        <BackgroundIcon />
-        <MainContent />
-      </ThemeProvider>
-    </div>
-  )
-}
+    
 
 export default App
